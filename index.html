@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./ios.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./avatar.png" alt="avatar" class="header__avatar" />
+      <div class="header__textContainer">
+        <h1 class="header__title">Валерия Горяинова</h1>
+        <h3 class="header__subtitle"> Сделаю ваш продукт лучше 😉</h3>
+      </div>
+    </header>
+    <main>
+      <section class="links">
+        <h2 class="links__header">Доступен</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Телеграм</p>
+            <a class="linsk__link" href="https://t.me/gorjainowa">@gorjainowa</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Эл. почта</p>
+            <a class="linsk__link" href="mailto:V.A.Goryainova@yandex.ru">V.A.Goryainova@yandex.ru</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">ВК</p>
+            <a class="linsk__link" href="https://vk.com/v.a.goryainova"
+              >v.a.goryainova</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">WhatsApp</p>
+            <a class="linsk__link" href="https://wa.me/79397007909">goryainova</a>
+          </li>
+        </ul>
+      </section>
+      <section class="links">
+        <h2 class="links__header">Обо мне</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Профессия</p>
+            <a class="linsk__link"> QA-инженер</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Возраст</p>
+            <a class="linsk__link">29</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Город </p>
+            <a class="linsk__link">Самара</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+   <footer>
+      <button id="openPopup" class="button-link" href=""> Мяу  </button>
+      <br>
+    <div id="popup" style="display: none;">
+        <img id="gifImage" src="./cool-fun.gif" alt="Анимация" class="popup"> <br>
+        <button onclick="closePopup()" class="button-link" >Закрыть</button>
+    </div>
+    </footer>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
